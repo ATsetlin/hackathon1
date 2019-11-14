@@ -8,3 +8,11 @@ const ethan = () => {
 	let hidFile = document.querySelector('#hidden');
 	hidFile.style.display = "block";
 }
+
+let trump = document.querySelector('#trump');
+
+const gif = () => {
+	trump.style.display = "block";
+}
+
+document.querySelector('#gifbut').addEventListener("click", gif);

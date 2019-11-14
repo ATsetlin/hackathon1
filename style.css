@@ -19,7 +19,7 @@ body {
 	justify-content: flex-end;
 }
 header {
-	background-image: url(https://scontent.ftlv1-1.fna.fbcdn.net/v/t1.0-9/74430808_1374695146023888_4934362199796744192_o.jpg?_nc_cat=104&_nc_oc=AQnP58M2k4lEc4ZAdZFXeATi3EkBOhlFxaG7uHn6vtsTBxjkN-w4KrQCkbycyoUrclA&_nc_ht=scontent.ftlv1-1.fna&oh=ff2325d32a84f374b74bfe0bae693bb7&oe=5E4F0ED5);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://scontent.ftlv1-1.fna.fbcdn.net/v/t1.0-9/74430808_1374695146023888_4934362199796744192_o.jpg?_nc_cat=104&_nc_oc=AQnP58M2k4lEc4ZAdZFXeATi3EkBOhlFxaG7uHn6vtsTBxjkN-w4KrQCkbycyoUrclA&_nc_ht=scontent.ftlv1-1.fna&oh=ff2325d32a84f374b74bfe0bae693bb7&oe=5E4F0ED5);
 	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: cover;
@@ -42,8 +42,8 @@ header {
 	justify-content: center;
 }
 .founders {
-	height: 500px;
-	width: 300px;
+	height: 200px;
+	width: 180px !important;
 }
 .pro-stuff {
 	max-width: 30%
