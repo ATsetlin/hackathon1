@@ -1,109 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Portfolio</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
-	<style>
-		@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap');
-	</style>
+	<title></title>
 </head>
 <body>
-	<button type="button" id="test">Click Me</button>
-	<div style="display: none;" id="hidden">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  		<a class="navbar-brand" href="#">Home</a>
-  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    	<span class="navbar-toggler-icon"></span>
-  		</button>
-  		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    	<div class="navbar-nav my-navbar-nav">
-      		<a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-      		<a class="nav-item nav-link" href="#">Porfolio</a>
-      		<a class="nav-item nav-link" href="#">Team</a>
-      		<a class="nav-item nav-link" href="#">Contact</a>
-    	</div>
-  	</div>
-	</nav>
-	<!--picture-->
-	<header>
-		<div class="centered">
-		<h1>Hello, Welcome to My Official Website</h1>
-		<p>And then a bunch of random stuff about myself that should take up a little space</p>
-		<a class="btn btn-dark" href="#" role="button">See more</a>
-		</div>
-	</header>
-	<section class="container">
-		<h3>About Us</h3>
-		<div class="row">
-			<div class="col-md-4 pro-pic flip-card">
-				<div class="flip-card-inner">
-					<div class="flip-card-front">
-						<img class="founders" src="Ari_Tsetlin.jpg" alt="tiger" title="yeah, that's me" style="width:200px;height:200px;">
-					</div>
-					<div class="flip-card-back">
-						<h1>Ari Tsetlin</h1>
-						<p>CAO</p>
-						<p>Lives in the basement bunker<br>Gets woken up every morning by Michael</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 pro-pic flip-card">
-				<div class="flip-card-inner">
-					<div class="flip-card-front">
-						<img class="founders" src="Ethan.jpg" alt="tiger" title="yeah, that's me" style="width:200px;height:200px;">
-					</div>
-					<div class="flip-card-back">
-						<h1>Eli Brand</h1>
-						<p>CEO</p>
-						<p>Bunch of hogwash till Ari thinks of something funny</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 pro-pic flip-card">
-				<div class="flip-card-inner">
-					<div class="flip-card-front">
-						<img class="founders" src="FaineAngel.jpg" alt="tiger" title="yeah, that's me" style="width:200px;height:200px;">
-					</div>
-					<div class="flip-card-back">
-						<h1>Faine Angel</h1>
-						<p>CFO</p>
-						<p>Huggable, druggable, wish he was pluggable</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="container">
-			<h3>Portfolio</h3>
-			<div class="row">
-				<div class="col-md-3">
-					<a href="#"><img src="Alexandra.jpg" class="img-thumbnail"></a>
-					<a href="#"><img src="Eitan_Charytan_Spitz.jpg" alt="crab" class="img-thumbnail"></a>
-				</div>
-				<div class="col-md-3">
-					<a href="#"><img src="Gabriel.jpg" class="img-thumbnail"></a>
-					<a href="#"><img src="Mel.jpg" alt="cosmos" class="img-thumbnail"></a>
-				</div>
-				<div class="col-md-3">
-					<a href="#"><img src="Naomi.jpg" class="img-thumbnail"></a>
-					<a href="#"><img src="Michael.jpg" class="img-thumbnail"></a>
-				</div>
-				<div class="col-md-3">
-					<a href="#"><img src="Yossef.jpg" class="img-thumbnail"></a>
-					<a href="#"><img src="Yuliya_Sim.jpg" class="img-thumbnail"></a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section></section>
-	<section></section>
-	<section></section>
-	<section></section>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</div>
+	<div id="container">
+		<h1>Tic Tac Toe</h1>
+		<div class="q" id="q0"></div>
+		<div class="q" id="q1"></div>
+		<div class="q" id="q2"></div>
+		<div class="q" id="q3"></div>
+		<div class="q" id="q4"></div>
+		<div class="q" id="q5"></div>
+		<div class="q" id="q6"></div>
+		<div class="q" id="q7"></div>
+		<div class="q" id="q8"></div>
+	</div>
+
 <script src="script.js"></script>
 </body>
 </html>
