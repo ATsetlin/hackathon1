@@ -86,7 +86,9 @@ const ari = () => {
 // 	hidFile.style.display = "block";
 // }
 
-
+	let hidFile = document.querySelector('#hidden');
+	hidFile.style.display = "block";
+}
 let trump = document.querySelector('#trump');
 
 const gif = () => {
